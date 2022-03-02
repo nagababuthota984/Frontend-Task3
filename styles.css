@@ -2,6 +2,7 @@ body
 {
     background-image:url(/Images/background12.png);
     background-size:cover;
+    background-repeat: no-repeat;
     font-family:"calibri";
 }
 .header-container
@@ -194,6 +195,7 @@ body
     height:170px;
     border:10px solid black;
     margin:auto;
+    background-color: white;
 }
 .lower-body-container h5,h3
 {
@@ -209,24 +211,22 @@ body
 .lower-left-body-container
 {
     float:left;
-    border-right:1px solid rgba(215,213,214,255);
-    width:33%;
+    width:32.5%;
     background-color: white;
     height:100%;
 }
 .lower-middle-body-container
 {
-    float:left;
-    width:33%;
+    display: inline-block;
+    width:32.5%;
     background-color: white;
     height:100%;
-    border-right:1px solid rgba(215,213,214,255);
 
 }
 .lower-right-body-container
 {
-    display: inline-block;
-    width:33.8%;
+    float:right;
+    width:33%;
     background-color: white;
     height:100%;
 }
@@ -333,4 +333,11 @@ body
     border-radius:3px;
     color:rgb(0, 0, 0);
     background-color: white;
+}
+.division-seperator
+{
+    border-right: 0.1px solid rgb(128,128,128,0.2);
+    height: 90%;
+    display: inline-block;
+    margin-bottom: 8px;
 }
