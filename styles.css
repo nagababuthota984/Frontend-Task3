@@ -350,7 +350,7 @@ ul
 }
 .division-seperator
 {
-    border-right: 0.1px solid rgb(128,128,128,0.2);
+    border-right: 0.1px solid rgb(128,128,128,0.4);
     height: 90%;
     display: inline-block;
     margin-bottom: 8px;
