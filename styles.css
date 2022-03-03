@@ -355,3 +355,8 @@ ul
     display: inline-block;
     margin-bottom: 8px;
 }
+.circle-delimiter
+{
+    font-size: 10px;
+    margin:0;
+}
