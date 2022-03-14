@@ -214,6 +214,29 @@ ul
     text-decoration: underline;
     font-size:14px;
 }
+@media only screen and (max-width:700px)
+{
+    .bridal-registry
+    {
+        display: inline-block;
+        float:none;
+    }
+    
+    .upper-left
+    {
+        width:36%;
+        float:left;
+    }
+    .upper-left img
+    {
+        width:98%;
+    }
+    .upper-right
+    {
+        width: 24%;
+        float: left;
+    }
+}
 .lower-container
 {
     width:1030px;
