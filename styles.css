@@ -8,6 +8,7 @@ body
 ul
 {
     padding:0;
+    margin: 15px 0px 0px 0px;
     list-style-type: none;
 }
 .header
@@ -33,10 +34,22 @@ ul
     display: inline-block;
     margin:0px 5px 0px 5px;
 }
+
 .top-right-navbar a
 {
     text-decoration: none;
     color:navy;
+}
+.top-right-navbar-seperator
+{
+    margin: 2px 5px -2.5px 5px;
+    display: inline-block;
+    border-right: 0.1px solid rgb(128,128,128,0.4);
+    height: 15px;
+}
+.cart-icon
+{
+    margin-bottom: -2px;
 }
 .navbar
 {
@@ -76,9 +89,10 @@ ul
 {
     width: 170px;
     font-size: 12px;
-    border-left: 2px solid gray;
-    border-top: 2px solid gray;
+    border:2px solid rgba(215,213,214,255);
+    border-style: inset;
     padding: 2px 5px;
+
 }
 .delimiter
 {
@@ -312,6 +326,7 @@ ul
     margin:auto;
     color:rgb(255,255,255,0.5);
     font-size:13px;
+    height:100px;
 
 }
 .footer a
@@ -341,12 +356,20 @@ ul
 .email-input
 {
     width:200px;
+    border:2px solid #dfd9cd;
+    border-right:2px solid white;
+    border-bottom:2px solid white;
+    border-style: inset;
 }
 .button
 {
-    border-radius:3px;
-    color:rgb(0, 0, 0);
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
     background-color: white;
+    height: 21px;
+    width: 32px;
+    border: 1px solid gray;
+    padding: 3px;
 }
 .division-seperator
 {
@@ -359,4 +382,14 @@ ul
 {
     font-size: 10px;
     margin:0;
+}
+.signup-btn
+{
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    height: 23px;
+    width: 70px;
+    border: 1px solid gray;
+    padding: 3px;
 }
